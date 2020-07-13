@@ -1,0 +1,134 @@
+body {
+	background-color: AliceBlue;
+	font-family: Calibri;
+}
+
+h1 {
+	font-family: Calibri;
+	font-size: 40px;
+}
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+tr {
+	column-width: 25px;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+th {
+	background-color: beige;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 15px;
+}
+
+td {
+	width: 25%;
+	padding: 10px;
+	font-family: Calibri;
+	height: 5x;
+}
+
+.courier {
+	text-align: left;
+	font-family: "Courier New";
+}
+
+.helvetica {
+	text-align: left;
+	font-family: Helvetica;
+}
+
+.size20 {
+	text-align: left;
+	font-size: 20px;
+}
+
+.size25 {
+	text-align: left;
+	font-size: 25px;
+}
+
+.bold  {
+	text-align: left;
+	font-weight: bold;
+}
+
+.lighter {
+	text-align: left;
+	font-weight: lighter;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.blue {
+	text-align: left;
+	color: blue;
+}
+
+.maroon {
+	text-align: left;
+	color: maroon;
+}
+
+.teal {
+	background-color: teal;
+	color: white;
+	text-align: left;
+}
+
+.wheat {
+	background-color: wheat;
+	text-align: left;
+}
+
+.opacity50 {
+	text-align: left;
+	opacity: 0.5;
+}
+
+.opacity25 {
+	text-align: left;
+	opacity: 0.25;
+}
+
+.mountains {
+	color: white;
+	background-image: url("https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_960_720.jpg");
+	width: 25px;
+	height: 25px;
+}
+
+.bear {
+	color: white;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/eb/Creative-Tail-Animal-bear.svg");
+}
+
+.roman {
+	text-align: left;
+	list-style: lower-roman;
+}
+
+.squares {
+	text-align: left;
+	list-style: square;
+}
+
+p {
+	font-size: 18px;
+	font-weight: bold;
+}
